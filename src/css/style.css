@@ -1,0 +1,17 @@
+@import "~normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans&display=swap");
+html {
+  font-size: 15px;
+}
+.wrapper {
+	width: 100%;
+	max-width: 80rem;
+	padding: 0 1rem;
+	margin: 0 auto;
+}
+.main__content {
+	overflow: hidden;
+}
+.canvas {
+	background: red;
+}

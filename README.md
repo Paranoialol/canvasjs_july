@@ -16,3 +16,4 @@ Second step - check package.json
   }
   
 ```
+is what we are interested in

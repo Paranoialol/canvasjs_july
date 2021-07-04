@@ -3,5 +3,5 @@
 
 first of all you have to use
 
-> $ npm install
+``` $ npm install
 

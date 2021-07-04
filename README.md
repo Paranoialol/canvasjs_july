@@ -10,9 +10,9 @@ $ npm install
 
 ```
 "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --mode production",
-    "dev": "cross-env NODE_ENV=development webpack --mode development",
-    "serve": "cross-env NODE_ENV=development webpack serve --mode development"
+    `"build"`: "cross-env NODE_ENV=production webpack --mode production",
+    `"dev"`: "cross-env NODE_ENV=development webpack --mode development",
+    `"serve"`: "cross-env NODE_ENV=development webpack serve --mode development"
   }
   
 ```

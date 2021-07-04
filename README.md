@@ -18,5 +18,7 @@ $ npm install
 ```
 is what we are interested in
 
-use > npm run build
-and >> npm run serve 
+use 
+> npm run build
+and 
+>> npm run serve 

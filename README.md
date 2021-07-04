@@ -1,12 +1,12 @@
 # CanvasJS - ur best image editor.
-## I made it specialy for MobiDev
+### I made it specialy for MobiDev
 
-First of all you have to use
+##First of all you have to use
 
 ```
 $ npm install
 ```
-Second step - check package.json
+##Second step - check package.json
 
 ```
 "scripts": {
@@ -17,3 +17,5 @@ Second step - check package.json
   
 ```
 is what we are interested in
+
+

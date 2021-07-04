@@ -21,7 +21,13 @@ is what we are interested in
 use 
 > npm run build 
 
+` to build the project `
+
+and
+
 > npm run serve 
+
+` to open the project in you browser `
 
 
 # Congratulations, you succeeded !!!!

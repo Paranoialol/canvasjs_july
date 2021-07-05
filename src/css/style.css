@@ -3,6 +3,17 @@
 html {
   font-size: 15px;
 }
+body {
+	background: rgb(63, 63, 63);
+}
+.canvas {
+	box-shadow: -3px 2px 9x 6px red;
+	cursor: pointer;
+}
+.h1 {
+	font-family: Montserrat;
+	font-weight: 600;
+}
 .wrapper {
 	width: 100%;
 	max-width: 80rem;
@@ -12,6 +23,51 @@ html {
 .main__content {
 	overflow: hidden;
 }
-.canvas {
-	background: red;
+
+
+.tool__panel {
+	display: flex;
+	width: 1150px;
+	/* justify-content: center; */
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.tool__panel .color__field {
+	height: 40px;
+	width: 40px;
+	min-height: 40px;
+	min-width: 40px;
+	cursor: pointer;
+	display: inline-block;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 3px solid black;
+	align-self: center;
+
+}
+
+.btn_clear {
+	align-self: center;
+	width: 100px;
+	height: 60px;
+	border: 3px solid red;
+	background: black;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	margin: 0 10px;
+	font-size: 24px;
+
+}
+
+.color__picker {
+	align-self: center;
+	margin: 0 10px;
+	height: 40px;
+}
+
+.pen__range {
+	align-self: center;
+	margin: 0 10px;
 }

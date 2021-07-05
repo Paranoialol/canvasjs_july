@@ -9,10 +9,22 @@
 <body>
 	<div class="wrapper">
 <header class="header">
-
+<h1 class="h1">CanvasJS - drawing app</h1>
 </header>
-<div class="main__content">
+ <div class="main__content">
 	<canvas class="canvas" id="canvas"></canvas>
+	<div class="tool__panel">
+
+		<button type="button" class="btn_clear">Clear Canvas</button>
+
+
+		<div onClick="changeColor(this)" class="color__field" style="background: red"></div>
+		<div onClick="changeColor(this)" class="color__field" style="background: green"></div>
+		<div onClick="changeColor(this)" class="color__field" style="background: yellow"></div>
+
+		<input type="color" class="color__picker">
+		<input type="range" min="1" max="50" class="pen__range">
+	</div>
 </div>
 
 	</div>
